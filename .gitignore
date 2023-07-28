@@ -1,0 +1,14 @@
+.env
+hardhat/node_modules
+yarn-error.log
+hardhat/typechain
+hardhat/typechain-types
+hardhat/coverage/
+hardhat/coverage.json
+hardhat/cache
+hardhat/artifacts
+hardhat/build
+hardhat/.openzeppelin
+.DS_Store
+.vscode
+.vscode/launch.json

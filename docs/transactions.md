@@ -1,0 +1,5 @@
+Corey:
+
+1. Contract creation: [0xe34c62491fa8738202f38abda2274eea24c2a4875bed67d240be8a8a27d192de](https://sepolia.etherscan.io/tx/0xe34c62491fa8738202f38abda2274eea24c2a4875bed67d240be8a8a27d192de)
+2. setText("Hi Im Corey") [0xe969c3cdfde44f464ae13d5bd206df7c87eab9aa90e02993730749162c3da332](https://sepolia.etherscan.io/tx/0xe969c3cdfde44f464ae13d5bd206df7c87eab9aa90e02993730749162c3da332)
+3. transferOwnership() [0xad38fc519b97e3fea81edeacaf805efdbf4a7c068eee97ce811da4defeeb1994](https://sepolia.etherscan.io/tx/0xad38fc519b97e3fea81edeacaf805efdbf4a7c068eee97ce811da4defeeb1994)
