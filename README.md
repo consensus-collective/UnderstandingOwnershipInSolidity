@@ -19,11 +19,15 @@ In this assignment, we'll try to dig deep into ownership in Solidity,and how the
 
 ### Overview:
 
+[`HelloWorld.sol`](hardhat/contracts//HelloWorld.sol): Directly copied from lesson4 repo
+
+[`IHelloWorld.sol`](hardhat/contracts/interfaces/IHelloWorld.sol): contract interface for interaction
+
+[`HelloWorld.json`](hardhat/deployments/sepolia/HelloWorld.json): contract deployment using [`hardhat-deploy`](https://github.com/wighawag/hardhat-deploy)
+
 ContractAddress on Sepolia testnet: [`0x0Ba095a975f1544061E1c9fc9a15D0aADa6D533C`](https://sepolia.etherscan.io/address/0x0ba095a975f1544061e1c9fc9a15d0aada6d533c)
 
-Contract interface: [here](contracts/interfaces/IHelloWorld.sol)
-
-Transactions: [here](transactions.md)
+Transactions: [here](docs/transactions.md)
 
 ## Pre-work:
 
@@ -33,13 +37,13 @@ Transactions: [here](transactions.md)
 
 ## Method 1: [Remix](https://remix.ethereum.org)
 
-[details](remix.md)
+[details](docs/remix.md)
 
 ## Method 2: Hardhat
 
 Alt solution using hardhat-deploy and hardhat tasks
 
-[details](hh.md)
+[details](docs/hh.md)
 
 ## Method 3: Blockchain explorer
 
