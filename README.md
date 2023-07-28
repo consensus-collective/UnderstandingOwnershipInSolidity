@@ -11,7 +11,7 @@ In this assignment, we'll try to dig deep into ownership in Solidity,and how the
 
 - Deepto
 - Ken
-- Abdul
+- Abdul Hakim (0x33Cb9c62131915C86DFfCb5C853379865Ae7379d)
 - Sergey
 - maksym
 - Corey (0xb66c6D8d96fAa683A4eb2Cb4b854f7bB2295e01E)
