@@ -1,6 +1,5 @@
 # UnderstandingOwnershipInSolidity
-
-In this assignment, we'll try to dig deep into ownership in Solidity,and how the `msg.owner` global variable along with modifiers can be used to create Ownable Contracts. We'll also demonstrate transferring the ownership, using Etherscan as well as Hardhat
+In this assignment, we'll try to dig deep into ownership in Solidity,and how the `msg.sender` global variable along with modifiers can be used to create Ownable Contracts. We'll also demonstrate transferring the ownership, using Etherscan as well as Hardhat
 
 ## Some Background
 
