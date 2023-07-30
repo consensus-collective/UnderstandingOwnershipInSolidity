@@ -82,7 +82,7 @@ In this assignment, we'll try to dig deep into ownership in Solidity,and how the
 
 ### How to execute transactions within Etherscan
 1. Go to the smart contract url, in our case https://sepolia.etherscan.io/address/0x0ba095a975f1544061e1c9fc9a15d0aada6d533c
-2. Go to `Contract` > `Read Contract`/`Write Contract` and follow the steps to connect your wallet
+2. Go to `Contract` > `Read Contract`/`Write Contract`>`Connect` and follow the steps to connect your wallet
 3. Choose a function and pass arguments, then run the function
 
 ### Our Methodology
@@ -106,6 +106,12 @@ We got on a call and we simulated a bunch of transactions on a contract created 
 11. For all cases, we can read the helloWorld() function (which isn't owned by the owner) and the owner public variable:
     ![](assets/2023-07-31-02-48-13.png)
 
+### Our Findings
+1. The transactions which failed for us were:
+  1. Running setText() as a non owner
+  2. Running transferOwnership() as a non owner
+2. This assures us that HelloWorld works as a Ownable Contract where certain functionalities can be restricted to the current owner
+   
 ## Method 2: [Remix](https://remix.ethereum.org)
 An alternative solution using Remix
 
