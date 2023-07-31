@@ -82,8 +82,10 @@ In this assignment, we'll try to dig deep into ownership in Solidity,and how the
 
 ### How to execute transactions within Etherscan
 1. Go to the smart contract url, in our case https://sepolia.etherscan.io/address/0x0ba095a975f1544061e1c9fc9a15d0aada6d533c
-2. Go to `Contract` > `Read Contract`/`Write Contract` and follow the steps to connect your wallet
-3. Choose a function and pass arguments, then run the function
+2. Click  `Contract` >`Verify and Publish`, follow the steps to upload the contract source code
+3. Click `Contract` >`Connect`,and follow the steps to connect your wallet
+4. Go to `Contract` > `Read Contract`/`Write Contract` 
+5. Choose a function and pass arguments, then run the function
 
 ### Our Methodology
 We got on a call and we simulated a bunch of transactions on a contract created by Corey:  
