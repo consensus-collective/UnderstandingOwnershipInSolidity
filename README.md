@@ -109,9 +109,9 @@ We got on a call and we simulated a bunch of transactions on a contract created 
     
 ### Our Findings
 1. The transactions which failed for us were:
-  1. Running setText() as a non owner
-  2. Running transferOwnership() as a non owner
-2. This assures us that HelloWorld works as a Ownable Contract where certain functionalities can be restricted to the current owner
+   * Running setText() as a non owner
+   * Running transferOwnership() as a non owner
+2. This assures us that HelloWorld works as a Ownable Contract where certain functionalities are restricted to the current owner
 ## Method 2: [Remix](https://remix.ethereum.org)
 An alternative solution using Remix
 
