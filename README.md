@@ -102,7 +102,7 @@ We got on a call and we simulated a bunch of transactions on a contract created 
 7. Ken runs setText as the current owner,  it succeeds : https://sepolia.etherscan.io/tx/0x5927201bdf1861865ffaa039cbc7fa6d4dc96ca6349aac64a5572c9918fa3fc1
 8. Ken transfers the ownership to Abdul(0x33Cb9c62131915C86DFfCb5C853379865Ae7379d) : https://sepolia.etherscan.io/tx/0x8adee04d4538df39af6c9ab4b94a15d4ce1c695d0e261031c7b1dbbe58eb1395
 9. Abdul runs setText as the owner, it succeeds : https://sepolia.etherscan.io/tx/0xbd360e1c36825351049dc6c4beea07849735318bfaea4c58f6cd8eb8999d22dc
-10. Deepto (non-owner) tries to change the ownership to Corey, this fails because the changeOwnership function is restricted to the current owner : https://sepolia.etherscan.io/tx/0xd3b0dd8d096e50291370f82709f46f1ba5959538736a7495f75ee0a44ec1eac1
+10. Deepto (non-owner) tries to change the ownership to Corey, this fails because the `transferOwnership` function is restricted to the current owner : https://sepolia.etherscan.io/tx/0xd3b0dd8d096e50291370f82709f46f1ba5959538736a7495f75ee0a44ec1eac1
     ![](assets/2023-07-31-02-40-49.png)
 11. For all cases, we can read the helloWorld() function (which isn't owned by the owner) and the owner public variable:
     ![](assets/2023-07-31-02-48-13.png)
